@@ -51,9 +51,9 @@ def run(my_songs)
 
     case input
     when "play"
-      play(songs)
+      play(my_songs)
     when "list"
-      list(songs)
+      list(my_songs)
     when "help"
       help
     when "exit"
