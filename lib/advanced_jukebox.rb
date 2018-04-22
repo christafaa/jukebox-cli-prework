@@ -24,7 +24,6 @@ def list(my_songs)
   puts my_songs.keys
 end
 
-
 def play(my_songs)
   puts "Please enter a song name or number:"
   request = gets.chomp
@@ -37,7 +36,6 @@ def play(my_songs)
   else
     puts "Invalid input, please try again."
   end
-
 end
 
 def exit_jukebox
