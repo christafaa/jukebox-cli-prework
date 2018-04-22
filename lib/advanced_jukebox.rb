@@ -38,6 +38,8 @@ def play(my_songs)
   
   puts "Please enter a song name or number:"
   request = gets.chomp
+  
+  songs = my_songs.keys
 
   if request.to_i > 0 && request.to_i <= songs.length
     puts "Playing #{songs[request.to_i - 1]}"
