@@ -33,7 +33,7 @@ def play(my_songs)
   if songs.include?(request)
     path = my_songs[request]
     puts "Playing #{request}"
-    p "open #{my_songs[request]}"
+    p "open #{path}"
   else
     puts "Invalid input, please try again."
   end
