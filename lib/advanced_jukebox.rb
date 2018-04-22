@@ -3,13 +3,13 @@
 #with the correct path to this directory on your computer
 
 my_songs = {
-"Go Go GO" => '/home/christafaa/jukebox-cli/audio/Emerald-Park/01.mp3',
-"LiberTeens" => '/home/christafaa/jukebox-cli/audio/Emerald-Park/02.mp3',
-"Hamburg" =>  '/home/christafaa/jukebox-cli/audio/Emerald-Park/03.mp3',
-"Guiding Light" => '/home/christafaa/jukebox-cli/audio/Emerald-Park/04.mp3',
-"Wolf" => '/home/christafaa/jukebox-cli/audio/Emerald-Park/05.mp3',
-"Blue" => '/home/christafaa/jukebox-cli/audio/Emerald-Park/06.mp3',
-"Graduation Failed" => '/home/christafaa/jukebox-cli/audio/Emerald-Park/07.mp3'
+"Go Go GO" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/01.mp3',
+"LiberTeens" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/03.mp3',
+"Guiding Light" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/04.mp3',
+"Wolf" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/05.mp3',
+"Blue" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/07.mp3'
 }
 
 def help
