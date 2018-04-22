@@ -20,8 +20,6 @@ def help
   puts "- exit : exits this program"
 end
 
-
-
 def list(my_songs)
   puts my_songs.keys
 end
