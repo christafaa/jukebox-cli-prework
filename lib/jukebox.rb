@@ -27,7 +27,7 @@ def play(songs)
   request = gets.chomp
 
   if request.to_i > 0 && request.to_i <= songs.length
-    puts "Playing #{songs[resquest.to_i - 1]}"
+    puts "Playing #{songs[request.to_i - 1]}"
   elsif songs.include?(request)
     puts "Playing #{request}"
   else
