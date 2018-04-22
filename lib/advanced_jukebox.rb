@@ -41,9 +41,7 @@ def play(my_songs)
   
   songs = my_songs.keys
 
-  if request.to_i > 0 && request.to_i <= songs.length
-    puts "Playing #{songs[request.to_i - 1]}"
-  elsif songs.include?(request)
+  if songs.include?(request)
     puts "Playing #{request}"
   else
     puts "Invalid input, please try again."
