@@ -3,7 +3,7 @@
 require_relative "../lib/advanced_jukebox"
 
 my_songs = {
-"Go Go GO" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/01.mp3',
+"Go Go GO" => 'jukebox-cli-prework/audio/Emerald-Park/01.mp3',
 "LiberTeens" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/02.mp3',
 "Hamburg" =>  '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/03.mp3',
 "Guiding Light" => '/home/christafaa/jukebox-cli-prework/audio/Emerald-Park/04.mp3',
