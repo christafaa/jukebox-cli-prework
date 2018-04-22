@@ -23,7 +23,7 @@ end
 
 
 def list(my_songs)
-  songs_array = my_songs.keys
+  puts my_songs.keys
 end
 
 
