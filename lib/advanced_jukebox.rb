@@ -43,7 +43,7 @@ def play(my_songs)
 
   if songs.include?(request)
     puts "Playing #{request}"
-    system 'open '
+    system "open #{songs[request}"
   else
     puts "Invalid input, please try again."
   end
