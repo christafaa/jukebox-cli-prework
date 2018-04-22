@@ -31,6 +31,7 @@ def play(my_songs)
   songs = my_songs.keys
 
   if songs.include?(request)
+    path = my_songs[request]
     puts "Playing #{request}"
     p "open #{my_songs[request]}"
   else
